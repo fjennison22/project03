@@ -2,7 +2,7 @@
 
 Welcome to the GitHub repository for project03 for the class Computing for the Web. The instructions/grading rubric that I followed for this project can be found [here](https://github.com/mikeizbicki/cmc-csci040/tree/2022fall/project_03).
 
-The file titled `ebay.dl` is the main code that converts an eBay search query into either a `.json` or `.csv` file depending on your command line. Within the outputted file you will see the name of the item (`name`), the price of the item - represented in cents - (`price`), the status of the condition of the item (`status`), the price of shipping - also represented in cents - (`shipping`), a True or False value depending on whether or not the item has free returns (`free_returns`), and lastly, the number of sales of that item (`items_sold`).
+The file titled `ebay.dl` is the main code that converts an eBay search query into either a `.json` or `.csv` file depending on your command line. Within the outputted file you will see the name of the item (`name`), the price of the item - represented in cents - (`price`), the status of the condition of the item (`status`), the price of shipping - also represented in cents - (`shipping`), a True or False value depending on whether or not the item has free returns (`free_returns`), and lastly, the number of sales of that item as an integer (`items_sold`).
 
 To run `ebay.dl`, use the following command line:
 ```
